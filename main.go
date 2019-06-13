@@ -29,6 +29,7 @@ func wightpick() int {
 			pick = key
 			break
 		}
+		random -= value
 	}
 	return pick
 }
